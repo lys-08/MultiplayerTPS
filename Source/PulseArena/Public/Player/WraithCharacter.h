@@ -14,7 +14,7 @@ class PULSEARENA_API AWraithCharacter : public APulseArenaCharacter
 {
 	GENERATED_BODY()
 
-	/*FTimerHandle TimerHandle;
+	FTimerHandle TimerHandle;
 	
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UI") TSubclassOf<class UTimerWidget> CountdownWidgetClass;
@@ -24,5 +24,5 @@ public:
 	
 	UFUNCTION(Server, Reliable) void Server_ChangeSkinIndex(int SkinIndex);
 	UFUNCTION() void ApplySkin();
-	UFUNCTION() void CreateTimerWidget(float startingTime);*/
+	UFUNCTION() void CreateTimerWidget(float startingTime);
 };

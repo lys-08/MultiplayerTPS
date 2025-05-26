@@ -3,7 +3,6 @@
 
 #include "Subsystem/MultiplayerGameInstanceSubsystem.h"
 
-#include "Player/WraithState.h"
 
 void UMultiplayerGameInstanceSubsystem::HostGame(const UObject* WorldContextObject, const TSoftObjectPtr<UWorld> Level,
                                                  bool bAbsolute, FString Options)
